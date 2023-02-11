@@ -1,0 +1,8 @@
+PROJECT IDEA
+
+Get information about Star Wars movies!
+
+Through an API request, the program will display all information about Star Wars movies. 
+
+It does a fetch to get the api. It uses modules in different files and lists cointaining the information about the movies. 
+
