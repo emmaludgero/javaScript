@@ -73,6 +73,7 @@ const output = (templeList) => {
         console.log("ARTICLE", article)
 
         const templeID = document.querySelector("#temples"); 
+        templeID.appendChild(article)
     });
 } 
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Star Wars Movies</title>
+	<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Films Information</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Get Information About Star Wars Movies!</h1>
+        <img id="photo" src="images/starwarsCover.jpeg" alt="Photo">
+    </header>
+    <main>
+        <section>
+            <div>
+                <h3>Star Wars</h3>
+            </div>
+            <div id="movies">
+            </div>
+            <div>
+                <label>Episode ID:</label>
+                <span id="epId"></span>
+            </div>
+            <div>
+                <label>Opening Crawl:</label>
+                <span id="opening"></span>
+            </div>
+            <div>
+                <label>Director:</label>
+                <ul id="director"></ul>
+            </div>
+            <div>
+                <label>Producer:</label>
+                <ul id="producer"></ul>
+            </div>
+            <div>
+                <label>Release date:</label>
+                <dl id="releaseDate"></dl>
+            </div>
+            <div>
+                <label>Characters:</label>
+                <span id="characters"></span>
+            </div>
+            <div>
+                <label>Planets:</label>
+                <span id="planets"></span>
+            </div>
+            <div>
+                <label>Starships:</label>
+                <span id="starships"></span>
+            </div>
+            <div>
+                <label>Vehicles:</label>
+                <span id="vehicles"></span>
+            </div>
+            <div>
+                <label>Species:</label>
+                <span id="species"></span>
+            </div>
+        </section>
+    </main>
+	<footer>
+        &copy;<span id="year">2023</span> | Star Wars Movies
+    </footer>
+    <script src="project.js"></script>
+</body>
+
+</html>
